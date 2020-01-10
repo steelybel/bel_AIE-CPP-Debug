@@ -9,7 +9,7 @@ public:
 	virtual void takeDamage(int damage);
 	bool isAlive();
 
-private:
+protected:
 	int health;
 	int maxHealth;
 };
